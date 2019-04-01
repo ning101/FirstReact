@@ -1,0 +1,17 @@
+{
+	"extends": "airbnb",
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+    },
+	"rules": {
+		"comma-dangle": ["error","never"],
+        //关闭windows换行问题和空格问题
+        "linebreak-style": [0,"error", "windows"],
+        "indent": "off",
+        "react/jsx-space-before-closing": 0,
+        "react/jsx-indent": 0,
+	}
+}
